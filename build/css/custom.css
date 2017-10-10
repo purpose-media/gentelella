@@ -3961,6 +3961,10 @@ ul.notifications {
 .table > thead > tr > th {
   vertical-align: middle; }
 
+html,
+html body {
+  overflow: visible; }
+
 .daterangepicker .ranges li {
   color: #73879C; }
   .daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {

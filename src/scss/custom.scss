@@ -4420,3 +4420,8 @@ ul.notifications {
 .table>thead>tr>th {
   vertical-align: middle;
 }
+
+html,
+html body {
+  overflow: visible;
+}
