@@ -359,6 +359,12 @@ body {
   width: 45%;
   float: left;
   display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.page-title .title_left small {
+  display: block;
+  margin-top: 10px;
 }
 .page-title .title_left h3 {
   margin: 9px 0;
@@ -1529,10 +1535,10 @@ span.right {
   bottom: 0px;
   clear: both;
   display: block;
-  padding: 5px 0 0 0;
+  padding: 0;
   position: fixed;
   width: 230px;
-  background: #2A3F54;
+  background: #20201f;
 }
 .sidebar-footer a {
   padding: 7px 0 3px;
@@ -1541,7 +1547,8 @@ span.right {
   font-size: 17px;
   display: block;
   float: left;
-  background: #172D44;
+  background: #20201f;
+  color: white;
 }
 .sidebar-footer a:hover {
   background: #425567;
@@ -4337,3 +4344,41 @@ ul.notifications {
   border: 1px solid #e5e5e5;
 }
 /** /Dropzone.js **/
+
+
+.ensphere-logo {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.sphere {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 2;
+  border: 1px solid white;
+  overflow: hidden;
+}
+.sphere:before {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 3;
+  content: " ";
+  display: inline-block;
+  background: #16A085;
+  border-radius: 100%;
+  transform: translate( -40%, -40% );
+}
+.sphere:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 2;
+  content: " ";
+  display: block;
+  background: #1ABC9C;
+  border-radius: 100%;
+  transform: translate( -12%, -12% );
+}
