@@ -3963,7 +3963,7 @@ ul.notifications {
 
 html,
 html body {
-  overflow: visible; }
+  overflow: visible !important; }
 
 .daterangepicker .ranges li {
   color: #73879C; }
