@@ -1,6 +1,5 @@
 {
-  "name": "gentelella",
-  "version": "1.4.0",
+  "name": "pm-gentelella",
   "description": "Gentelella Admin is a free to use Bootstrap admin template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
