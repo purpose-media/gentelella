@@ -502,7 +502,8 @@ a:hover, a:focus {
 .nav.side-menu > li {
   position: relative;
   display: block;
-  cursor: pointer; }
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
 
 .nav.side-menu > li > a {
   margin-bottom: 6px; }
